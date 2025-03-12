@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(135deg, var(--Linear-135deg-from1), var(--Linear-135deg-to1));
+    font-family: 'Josefin Sans',serif;
+}
+
+:root{
+    --Desaturated-Red: hsl(0, 36%, 70%);
+    --Soft-Red: hsl(0, 93%, 68%);
+    --Dark-Grayish-Red: hsl(0, 6%, 24%);
+    --Linear-135deg-from1: hsl(0, 0%, 100%);
+    --Linear-135deg-to1:hsl(0, 100%, 98%);
+    --Linear-135deg-from2: hsl(0, 80%, 86%);
+    --Linear-135deg-to2:hsl(0, 74%, 74%);
+}
+
+.Backdekstop{
+    display: none;
+}
+
+article .imgDiv .desktopImg{
+    display: none;
+}
+
+article .imgDiv .mobileImg{
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+header  nav .logoMenu {
+    margin-top: 1.7rem;
+    margin-left: 3rem;
+    margin-bottom: 1.7rem;
+}

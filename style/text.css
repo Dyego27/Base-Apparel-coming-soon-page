@@ -1,0 +1,16 @@
+main .comingTexted{
+    text-align: center;
+    letter-spacing: 9px;
+    margin-bottom: 1.5rem;
+}
+
+main .comingTexted h1{
+    font-weight: 300;
+    color: var(--Desaturated-Red);
+    font-size: 35px;
+}
+
+main .comingTexted p {
+    font-weight: 600;
+    font-size: 35px;
+}
