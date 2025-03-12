@@ -14,3 +14,14 @@ main .comingTexted p {
     font-weight: 600;
     font-size: 35px;
 }
+
+main .texted{
+    text-align: center;
+    width: 65%;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+}
+main .texted p{
+    color: var(--Desaturated-Red);
+    font-size: 15px;
+}
