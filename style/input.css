@@ -1,0 +1,39 @@
+main .emailSendDiv .inputDiv .errorImg {
+    display: none;
+}
+main .emailSendDiv .inputDiv .errorSpan{
+    display: none;
+}
+
+main .emailSendDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+main .emailSendDiv .inputDiv input {
+    border-radius: 50px;
+    border: none;
+    padding: .9rem .9rem; 
+    width: 300px;
+    border: 1px solid var(--Desaturated-Red);
+    background:linear-gradient(from var(--Linear-135deg-from2) to var(--Linear-135deg-to2));
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+main .emailSendDiv .inputDiv input::placeholder{
+    color: var(--Linear-135deg-from2);
+    opacity: 0.8;
+}
+
+main .emailSendDiv .btnDiv {
+    margin-left: -3rem;
+}
+
+main .emailSendDiv .btnDiv button {
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    width: 60px;
+    height: 45px;
+    background: linear-gradient(var(--Linear-135deg-from2), var(--Linear-135deg-to2));
+}
