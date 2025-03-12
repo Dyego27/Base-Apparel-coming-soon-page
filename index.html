@@ -11,6 +11,7 @@
 
 </head>
 <body>
+  <img src="images/bg-pattern-desktop.svg" alt="">
   <header>
     <nav>
       <div class="logoMenu">
@@ -20,7 +21,8 @@
   </header>
   <article>
     <div class="imgDiv">
-      <img src="images/hero-mobile.jpg" alt="">
+      <img src="images/hero-mobile.jpg" alt="" class="mobileImg">
+      <img src="images/hero-desktop.jpg" alt="" class="desktopImg">
     </div>
   </article>
   <main>
@@ -33,10 +35,12 @@
     </div>
     <div class="emailSendDiv">
       <div class="inputDiv">
-        <input type="email" placeholder="Email Address">
+        <input type="email" placeholder="Email Address" id="input">
+        <img src="images/icon-error.svg" alt="" id="errorImg" class="errorImg">
+        <span id="errorSpan" class="errorSpan">Please provide a valid email</span>
       </div>
       <div class="btnDiv">
-        <button>></button>
+        <button><img src="images/icon-arrow.svg" alt=""></button>
       </div>
     </div>
   </main>
