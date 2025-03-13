@@ -1,11 +1,22 @@
 @media (min-width:1440px) {    
     body{
         background-image: url("../images/bg-pattern-desktop.svg");
-        background-repeat: no-repeat; /* Impede a repetição da imagem */
-        background-size: 50% 100%; /* Largura 50%, altura 100% */
-        background-position: left top; /* Posiciona a imagem no canto superior esquerdo */
-        position: relative; /* Cria um contexto de posicionamento para z-index */
-        z-index: -1; /* Coloca a imagem atrás do conteúdo */
+        background-repeat: repeat-x;
+        background-size: 100% 100%; 
+        background-position: left top; 
+        position: relative;
+        z-index: -1; 
+        overflow: hidden;
+    }
+
+    header nav .logoMenu{
+        position: relative;
+        margin-top: 4rem;
+        right: -260px;
+    }
+
+    header nav .logoMenu img{
+        width: 185px;
     }
     
     article .imgDiv .mobileImg{
@@ -18,8 +29,61 @@
 
     article .imgDiv .desktopImg{
         display: block;
-        width: 50%;
+        width: 37%;
         position: relative;
-        right: -951px;
+        right: -1210px;
+    }
+
+    main {
+        position: relative;
+        top: -650px;
+        left: -450px;
+    }
+
+
+    main .comingTexted h1{
+        position: relative;
+        left: -60px;
+        font-size: 75px;
+    }
+    main .comingTexted p{
+        font-size: 75px;
+    }
+    main .comingTexted .p{
+        position: relative;
+        left: -60px;
+    }
+    main .texted p{
+        position: relative;
+        right: -430px;
+        width: 40%;
+        text-align: start;
+        font-size: 17px;
+    }
+
+    main .emailSendDiv {
+        position: relative;
+        right: -60px;
+    }
+    main .emailSendDiv .inputDiv input{
+        padding: 1.3rem;
+        width: 450px;
+    }
+    main .emailSendDiv .btnDiv button{
+        width: 110px;
+        height: 60px;
+    } 
+
+    main .emailSendDiv .inputDiv .errorImg {
+        display: none;
+        position: relative;
+        top: -40px;
+        right: -450px;
+    }
+    main .emailSendDiv .inputDiv .errorSpan{
+        display: none;
+        color: var(--Soft-Red);
+        position: relative;
+        right: -40px;
     }
 }

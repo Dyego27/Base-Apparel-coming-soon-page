@@ -1,9 +1,4 @@
-main .emailSendDiv .inputDiv .errorImg {
-    display: none;
-}
-main .emailSendDiv .inputDiv .errorSpan{
-    display: none;
-}
+
 
 main .emailSendDiv {
     display: flex;
